@@ -56,6 +56,7 @@ public class ServiceCandidate {
 	@JsonProperty("@schemaLocation")
 	private String schemaLocation;
 
+	
 	@Valid
 	private TimePeriod validFor;
 

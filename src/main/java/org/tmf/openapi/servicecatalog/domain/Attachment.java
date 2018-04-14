@@ -1,5 +1,7 @@
 package org.tmf.openapi.servicecatalog.domain;
 
+
+
 import java.net.URI;
 
 import javax.validation.Valid;
@@ -25,15 +27,15 @@ public class Attachment extends BaseRef {
 
 	@NotNull
 	@Valid
-	private TimePeriod validFor;
+	private TimePeriod validFor; 
 
-	@JsonProperty("@type")
+	/*@JsonProperty("@type")
 	private String type;
 
 	@JsonProperty("@baseType")
 	private String baseType;
 
 	@JsonProperty("@schemaLocation")
-	private String schemaLocation;
+	private String schemaLocation;*/
 
 }
